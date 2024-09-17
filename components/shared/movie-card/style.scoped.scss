@@ -1,0 +1,25 @@
+.card-movie-container {
+  @apply flex flex-col mb-5 h-fit border-b-4 border-primary;
+
+  .img-wrapper {
+    @apply relative w-full aspect-[4/6] overflow-hidden;
+
+    img {
+      @apply w-full object-cover aspect-[4/6];
+    }
+  }
+
+  h2 {
+    @apply font-semibold truncate mt-2;
+  }
+
+  a {
+    &:hover {
+      @apply cursor-pointer opacity-80;
+    }
+  }
+
+  span {
+    @apply text-sm text-secondary-300 mb-2;
+  }
+}

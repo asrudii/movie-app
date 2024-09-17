@@ -1,0 +1,19 @@
+.pagination {
+  @apply flex items-center justify-center text-sm font-medium text-secondary-700 md:text-sm;
+
+  .pagination__prev {
+    @apply flex h-[34px] w-9 items-center justify-center rounded-l-[4px] border hover:opacity-75;
+  }
+
+  .pagination__next {
+    @apply flex h-[34px] w-9 items-center justify-center rounded-r-[4px] border hover:opacity-75;
+  }
+
+  .pagination__item {
+    @apply flex h-[34px] w-9 items-center justify-center border hover:opacity-75;
+  }
+
+  .pagination__item__active {
+    @apply bg-primary text-white;
+  }
+}

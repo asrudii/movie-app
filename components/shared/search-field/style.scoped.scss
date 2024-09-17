@@ -1,0 +1,15 @@
+.search-field {
+  @apply w-full md:w-[35rem] bg-white flex items-center justify-between px-3 py-2 border border-secondary-200 relative rounded-lg;
+
+  .search-field__input {
+    @apply w-full outline-none;
+  }
+
+  .search-field__icon {
+    @apply text-secondary-500 mr-4 -inset-y-2/4;
+  }
+
+  .search-field__clear {
+    @apply text-secondary-500 cursor-pointer;
+  }
+}

@@ -1,0 +1,7 @@
+.empty-state {
+  @apply flex flex-col justify-center items-center m-auto;
+
+  .empty-state__title {
+    @apply text-h3 text-center;
+  }
+}

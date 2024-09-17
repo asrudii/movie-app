@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "core/utils/__test__/class-merge.test.ts", "components/movie/__test__/movie.test.tsx"],
   "exclude": ["node_modules"]
 }
